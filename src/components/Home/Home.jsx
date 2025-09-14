@@ -71,7 +71,7 @@ const Home = () => {
             Contact Me
           </a>
           <a
-            href="https://drive.google.com/file/d/1d2GoCxCNgKWTHvF_uvwgvbF99Hn5skJB/view?usp=sharing"
+            href="https://drive.google.com/file/d/1SXtU_uNhoTB2SHW4NZgLc2rnfolQlE4V/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 rounded-xl font-semibold bg-gradient-to-r from-pink-500 to-purple-600 text-white shadow-lg hover:opacity-90 transition"
