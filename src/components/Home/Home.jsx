@@ -23,7 +23,9 @@ const Home = () => {
         </h1>
 
         <p className="mt-6 text-lg md:text-xl text-gray-400">
-          Full Stack Java Developer | React.js & Spring Boot Specialist | Passionate About Building Scalable, High-Performance, and User-Centric Web Applications
+          Full Stack Java Developer | React.js & Spring Boot Specialist |
+          Passionate About Building Scalable, High-Performance, and User-Centric
+          Web Applications
         </p>
 
         <p className="mt-4 text-gray-500 max-w-2xl mx-auto">
@@ -71,7 +73,7 @@ const Home = () => {
             Contact Me
           </a>
           <a
-            href="https://drive.google.com/file/d/1SXtU_uNhoTB2SHW4NZgLc2rnfolQlE4V/view?usp=sharing"
+            href="https://drive.google.com/file/d/18_x3gbrGNEUiuCg-x6voRpYcaag-oA5X/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 rounded-xl font-semibold bg-gradient-to-r from-pink-500 to-purple-600 text-white shadow-lg hover:opacity-90 transition"

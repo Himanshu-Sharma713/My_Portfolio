@@ -80,7 +80,7 @@ const About = () => {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1SXtU_uNhoTB2SHW4NZgLc2rnfolQlE4V/view?usp=sharing"
+            href="https://drive.google.com/file/d/18_x3gbrGNEUiuCg-x6voRpYcaag-oA5X/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
