@@ -45,7 +45,7 @@ const About = () => {
             👋 Hi, I am
           </h3>
 
-          <h2 className="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-4 leading-tight bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+          <h2 className="text-2xl sm:text-4xl md:text-6xl font-extrabold mb-4 leading-tight bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
             Himanshu Sharma
           </h2>
 
@@ -53,13 +53,12 @@ const About = () => {
             <span className="text-gray-300">I am a </span>
             <ReactTypingEffect
               text={[
-                "Full Stack Developer",
-                "Java Developer",
-                "Java Full Stack",
-                "JavaScript Developer",
                 "React Developer",
-                "UI/UX Designer",
-                "Programmer",
+                "Frontend Engineer",
+                "JavaScript Enthusiast",
+                "TypeScript Developer",
+                "UI/UX Enthusiast",
+                "Full-Stack Contributor",
               ]}
               speed={100}
               eraseSpeed={50}
@@ -72,15 +71,26 @@ const About = () => {
           </h3>
 
           <p className="text-base sm:text-lg text-gray-400 mb-10 leading-relaxed max-w-lg md:mr-10">
-            I am a passionate Full-Stack Java Developer with expertise in Java,
-            JavaScript Spring Boot, React.js, and MySQL. Skilled at building
-            scalable, secure web applications with a focus on clean code,
-            performance, and solving real-world problems in fast-paced
-            environments.
+            I am a passionate{" "}
+            <span className="text-purple-400 font-semibold">
+              React Developer — Frontend Engineer
+            </span>{" "}
+            with expertise in
+            <span className="text-purple-400">
+              {" "}
+              React.js, TypeScript, Redux, React Query, and Tailwind CSS
+            </span>
+            . Skilled at building scalable, responsive, and user-friendly web
+            applications, with strong full-stack foundations in{" "}
+            <span className="text-purple-400">
+              Java, Spring Boot, and MySQL
+            </span>
+            . I focus on crafting clean code, optimizing performance, and
+            delivering impactful digital experiences.
           </p>
 
           <a
-            href="https://drive.google.com/file/d/18_x3gbrGNEUiuCg-x6voRpYcaag-oA5X/view?usp=sharing"
+            href="https://drive.google.com/file/d/1d2GoCxCNgKWTHvF_uvwgvbF99Hn5skJB/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
