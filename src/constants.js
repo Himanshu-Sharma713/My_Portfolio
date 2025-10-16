@@ -27,7 +27,7 @@ import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 
 // Experience Section Logo's
-import cetpaLogo from "./assets/company_logo/cetpa_logo.png";
+import cetpaLogo from "./assets/company_logo/cetpa_logo.jpeg";
 
 // Education Section Logo's
 import glaLogo from "./assets/education_logo/rmlau.jpeg";
