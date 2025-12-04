@@ -3,7 +3,7 @@ import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import profileImage from "../../assets/images.jpg";
 
-const particles = Array.from({ length: 15 }); // Number of floating dots
+const particles = Array.from({ length: 15 });
 
 const About = () => {
   return (
@@ -53,12 +53,13 @@ const About = () => {
             <span className="text-gray-300">I am a </span>
             <ReactTypingEffect
               text={[
-                "React Developer",
-                "Frontend Engineer",
-                "JavaScript Enthusiast",
-                "TypeScript Developer",
-                "UI/UX Enthusiast",
-                "Full-Stack Contributor",
+                "Java Developer",
+                "Java Full Stack Developer",
+                "Backend Developer",
+                "React.js Frontend Developer",
+                "REST API Engineer",
+                "SQL & Database Specialist",
+                "Problem Solver",
               ]}
               speed={100}
               eraseSpeed={50}
@@ -71,26 +72,27 @@ const About = () => {
           </h3>
 
           <p className="text-base sm:text-lg text-gray-400 mb-10 leading-relaxed max-w-lg md:mr-10">
-            I am a passionate{" "}
+            I am a dedicated{" "}
             <span className="text-purple-400 font-semibold">
-              React Developer — Frontend Engineer
+              Java Full Stack Developer
             </span>{" "}
-            with expertise in
-            <span className="text-purple-400">
-              {" "}
-              React.js, TypeScript, Redux, React Query, and Tailwind CSS
+            skilled in building scalable and secure applications using{" "}
+            <span className="text-purple-400 font-semibold">
+              Java (SE/EE), Spring Boot, REST APIs, JDBC, Servlets, JSP,
+              Hibernate, and MySQL
             </span>
-            . Skilled at building scalable, responsive, and user-friendly web
-            applications, with strong full-stack foundations in{" "}
-            <span className="text-purple-400">
-              Java, Spring Boot, and MySQL
+            . On the frontend, I work with{" "}
+            <span className="text-purple-400 font-semibold">
+              React.js, Redux, TypeScript, React Query, HTML, CSS, and Tailwind
+              CSS
             </span>
-            . I focus on crafting clean code, optimizing performance, and
-            delivering impactful digital experiences.
+            . I focus on writing clean, maintainable, and high-performance code
+            while solving real-world problems across both backend and frontend
+            systems.
           </p>
 
           <a
-            href="https://drive.google.com/file/d/18_x3gbrGNEUiuCg-x6voRpYcaag-oA5X/view"
+            href="https://drive.google.com/file/d/1SXtU_uNhoTB2SHW4NZgLc2rnfolQlE4V/view"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -116,17 +118,17 @@ const About = () => {
           transition={{ duration: 0.7 }}
           className="md:w-1/2 flex justify-center md:justify-end relative"
         >
-          {/* Animated Gradient Blobs */}
+          {/* Animated Blobs */}
           <motion.div
             className="absolute -top-10 -left-10 w-72 h-72 rounded-full bg-purple-600 blur-3xl opacity-30"
             animate={{ y: [0, 30, 0], x: [0, 20, 0] }}
             transition={{ repeat: Infinity, duration: 8, ease: "easeInOut" }}
-          ></motion.div>
+          />
           <motion.div
             className="absolute bottom-0 -right-10 w-80 h-80 rounded-full bg-pink-500 blur-3xl opacity-25"
             animate={{ y: [0, -30, 0], x: [0, -20, 0] }}
             transition={{ repeat: Infinity, duration: 10, ease: "easeInOut" }}
-          ></motion.div>
+          />
 
           {/* Profile Image */}
           <Tilt

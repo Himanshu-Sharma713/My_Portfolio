@@ -23,20 +23,20 @@ const Home = () => {
         </h1>
 
         <p className="mt-6 text-lg md:text-xl text-gray-400">
-          React Developer — Frontend Engineer | Proficient in React.js,
-          TypeScript, Redux, Tailwind CSS, and REST APIs
+          Java Full Stack Developer — Skilled in Java, Spring Boot, React.js,
+          MySQL & RESTful APIs
         </p>
 
         <p className="mt-4 text-gray-500 max-w-2xl mx-auto">
-          B.Tech in Computer Science & Engineering with hands-on expertise in
-          building scalable, performant, and user-friendly web applications.
-          Strong foundation in{" "}
+          B.Tech in Computer Science & Engineering with hands-on experience
+          building scalable, secure, and high-performance web applications.
+          Strong knowledge of{" "}
           <span className="text-purple-400 font-semibold">
-            React.js, TypeScript, Redux, Tailwind CSS, Java, Spring Boot, and
-            MySQL
+            Java (SE/EE), Spring Boot, React.js, Redux, TypeScript, Hibernate,
+            MySQL, REST APIs, and Tailwind CSS.
           </span>{" "}
-          <br />. Passionate about creating clean, responsive, and impactful
-          digital experiences.
+          Passionate about clean code, debugging, problem-solving, and building
+          meaningful digital experiences across the full stack.
         </p>
 
         {/* Social Links */}
@@ -74,7 +74,7 @@ const Home = () => {
             Contact Me
           </a>
           <a
-            href="https://drive.google.com/file/d/18_x3gbrGNEUiuCg-x6voRpYcaag-oA5X/view"
+            href="https://drive.google.com/file/d/1SXtU_uNhoTB2SHW4NZgLc2rnfolQlE4V/view"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 rounded-xl font-semibold bg-gradient-to-r from-pink-500 to-purple-600 text-white shadow-lg hover:opacity-90 transition"
